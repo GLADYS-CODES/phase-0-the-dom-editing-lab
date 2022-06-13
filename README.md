@@ -96,7 +96,10 @@ previous lesson for your development environment.
 Just to speed things up a bit, paste the following code into `index.html`:
 
 ```html
-<!DOCTYPE html>
+<!-All our work for this lesson will go here-->
+  </body>
+</html>tml`.
+DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -105,22 +108,7 @@ Just to speed things up a bit, paste the following code into `index.html`:
     <title>Introduction to the DOM Lab</title>
   </head>
   <body>
-    <!--All our work for this lesson will go here-->
-  </body>
-</html>
-```
-
-Refresh the browser page to see the changes.
-
-Open the Google Developer Tools by clicking on the "View" menu and selecting
-Developer -> Developer Tools. The Elements tab should be selected but, if it
-isn't, click on it. Here we have the DOM representation of the HTML source
-loaded by the browser. You should see the `head` and `body` elements nested
-inside the `html` element. If the `body` element is collapsed, use the
-disclosure triangle to expand it. You should see that the `body` element is,
-temporarily, child-less. Let's go ahead and start adding some content in
-`index.html`.
-
+    <!-
 **Note**: the
 [disclosure triangle](https://en.wikipedia.org/wiki/Disclosure_widget) is the
 triangle to the left of the `<body>` tag. When you first open the Elements tab,
